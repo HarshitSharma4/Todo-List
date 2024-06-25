@@ -21,7 +21,7 @@ const App = () => {
     <div className="min-h-screen w-screen bg-[#45474B] text-[#F5F7F8] font-extrabold text-xl px-4">
       <div className="flex flex-col gap-4  w-[95%] md:w-[85%] m-auto">
 
-      <h1 className="text-center pt-4 mb-5">Efficient Ways to Organize and Prioritize</h1>
+      <h1 className="text-center text-2xl pt-4 mb-5">Efficient Ways to Organize and Prioritize</h1>
       <AddTask />
       <Tasks />
       </div>
