@@ -24,12 +24,7 @@ const tasklist = createSlice({
       }
     },
     deleteTask: (state, action) => {
-      
-      state.tasks = state.tasks.filter((item) => {
-        if (item.task !== action.payload.task) {
-          return item;
-        }
-      });
+      state.tasks = state.tasks.filter((item) => item.task !== action.payload.task);
       localStorage.setItem("tasks", JSON.stringify(state.tasks));
     },
     updateTask: (state, action) => {
